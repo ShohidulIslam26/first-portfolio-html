@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+body{
+    max-width: 1200px;
+    margin: auto;
+}
+
+header{
+    background-color: antiquewhite;
+}
+h1{
+    font-size: 32px;
+    font-weight: bold;
+    
+}
+span{
+    color: #FD6E0A;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 80px;
+}
+ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 20px;
+    align-items: center;
+    
+    
+    
+}
+ul li a{
+    text-decoration: none;
+
+}
+.regular_btn{
+    background-color: #FD6E0A;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+}
