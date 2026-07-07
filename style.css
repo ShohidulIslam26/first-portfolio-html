@@ -8,9 +8,7 @@ body{
     margin: auto;
 }
 
-header{
-    background-color: antiquewhite;
-}
+
 h1{
     font-size: 32px;
     font-weight: bold;
@@ -23,6 +21,7 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 10px 80px;
+    /* background-color: antiquewhite; */
 }
 ul{
     display: flex;
@@ -44,4 +43,37 @@ ul li a{
     border-radius: 5px;
     border: none;
     color: white;
+}
+.hero_Part{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+    align-items: center;
+    background-color: #FFF8F3;
+    
+}
+.hero_text_area .mr{
+    font-weight: 600;
+    font-size: 40px;
+}
+.hero_text_area h1{
+    font-weight: 600;
+    font-size: 80px;
+}
+.hero_text_area p{
+    padding: 10px;
+}
+button{
+    background-color: #FD6E0A;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: none;
+
+}
+button a{
+    color: white;
+    text-decoration: none;
+}
+img{
+    margin: 50px;
 }
