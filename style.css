@@ -3,12 +3,13 @@
     padding: 0;
     font-family: "Open Sans", sans-serif;
 }
-body{
+.container{
     max-width: 1200px;
     margin: auto;
 }
-
-
+.bg{
+    background-color: #FFF8F3;
+}
 h1{
     font-size: 32px;
     font-weight: bold;
@@ -49,7 +50,7 @@ ul li a{
     justify-content: space-between;
     width: 1200px;
     align-items: center;
-    background-color: #FFF8F3;
+    
     
 }
 .hero_text_area .mr{
